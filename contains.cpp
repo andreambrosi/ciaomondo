@@ -13,8 +13,7 @@ bool isContain(double a1[], double a2[], int size1, int size2) {
                     break;
                 }
             }
-            if(flag)
-                return true;
+                return flag
         }
     }
 
