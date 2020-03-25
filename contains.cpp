@@ -3,7 +3,7 @@
 //
 #include "contains.h"
 
-bool isContain(int a1[], int a2[], int size1, int size2) {
+bool isContain(double a1[], int a2[], int size1, int size2) {
     for (int i = 0; i < (size1 - size2); ++i) {
         if(a1[i] == a2[0]) {
             bool flag = true;
